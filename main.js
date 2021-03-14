@@ -26,8 +26,8 @@ function setCelsius(temp,feels){
     userInput.addEventListener("keyup", onchangee)    
     document.getElementById('input').appendChild(userInput)
     
-    //window.addEventListener('DOMContentLoaded',excecuteScript);
-    excecuteScript()
+    window.addEventListener('DOMContentLoaded',excecuteScript);
+    //excecuteScript()
         
     async function excecuteScript (){
         let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=d05a452a95d2aa8b42bdfafe1642c31b`
