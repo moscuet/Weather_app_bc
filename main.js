@@ -64,7 +64,6 @@ function onchangee (e){
                 </div>
             `
         }
-    excecuteScript()
 
 window.onload = function() { 
     excecuteScript ()
