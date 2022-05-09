@@ -5,6 +5,4 @@
 ## This is an weather app developed as a study project
 it shows current weather information of a city
 information get updated immadiately as we type city in input field
-
 Api used for the app: http://api.openweathermap.org /
-
